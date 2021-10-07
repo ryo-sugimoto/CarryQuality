@@ -1,0 +1,733 @@
+{% extends 'museum/base.html' %}
+{% load static %}
+{% block content %}
+
+
+
+<!DOCTYPE html>
+<html lang="ja">
+
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Carry Quality</title>
+  <link rel="stylesheet" href={% static 'css/top/top.css' %}>
+
+  <!-- All in One SEO 4.0.12 -->
+  <meta name="description"
+    content="Carry Quality">
+  <link rel="canonical" href={% url 'museum:top' %}>
+  <meta property="og:site_name" content="Carry Quality">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Carry Quality">
+  <meta property="og:description"
+    content="Carry Quality">
+  <meta property="og:url" content="{% url 'museum:top' %}">
+  <meta property="og:image" content="http://www.miraiasist1.com/wp-content/uploads/logo_ogp.jpg">
+  <meta property="article:published_time" content="2021-02-03T08:29:29Z">
+  <meta property="article:modified_time" content="2021-02-04T09:31:33Z">
+  <meta property="twitter:card" content="summary">
+  <meta property="twitter:domain" content="pacific-springs-93264.herokuapp.com">
+  <meta property="twitter:title" content="Carry Quality">
+  <meta property="twitter:description"
+    content="Carry Quality">
+  <meta property="twitter:image" content="https://www.miraiasist1.com/wp-content/uploads/logo_ogp.jpg">
+  <script src={% static 'js/top/sdk.js' %} async="" crossorigin="anonymous"></script>
+  <script id="facebook-jssdk" src={% static 'js/top/sdk(1).js' %}></script>
+  <script type="application/ld+json" class="aioseo-schema">
+			{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebSite","@id":"http:\/\/s10316900000001.nx1.hpms1.jp\/#website","url":"http:\/\/s10316900000001.nx1.hpms1.jp\/","name":"\u5408\u540c\u4f1a\u793e\u307f\u3089\u3044\u30a2\u30b7\u30b9\u30c8","description":"\u5408\u540c\u4f1a\u793e\u307f\u3089\u3044\u30a2\u30b7\u30b9\u30c8","publisher":{"@id":"http:\/\/s10316900000001.nx1.hpms1.jp\/#organization"},"potentialAction":{"@type":"SearchAction","target":"http:\/\/s10316900000001.nx1.hpms1.jp\/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"Organization","@id":"http:\/\/s10316900000001.nx1.hpms1.jp\/#organization","name":"\u5408\u540c\u4f1a\u793e\u307f\u3089\u3044\u30a2\u30b7\u30b9\u30c8","url":"http:\/\/s10316900000001.nx1.hpms1.jp\/","logo":{"@type":"ImageObject","@id":"http:\/\/s10316900000001.nx1.hpms1.jp\/#organizationLogo"},"image":{"@id":"http:\/\/s10316900000001.nx1.hpms1.jp\/#organizationLogo"}},{"@type":"BreadcrumbList","@id":"http:\/\/s10316900000001.nx1.hpms1.jp\/#breadcrumblist","itemListElement":[{"@type":"ListItem","@id":"http:\/\/s10316900000001.nx1.hpms1.jp\/#listItem","position":1,"item":{"@type":"WebPage","@id":"http:\/\/s10316900000001.nx1.hpms1.jp\/#item","name":"\u30db\u30fc\u30e0","description":"\u672d\u5e4c\u5e02\u8c4a\u5e73\u533a\u5e73\u5cb8\u306b\u3042\u308b\u300e\u5408\u540c\u4f1a\u793e\u307f\u3089\u3044\u30a2\u30b7\u30b9\u30c8\u300f\u3067\u3059\u3002\u672d\u5e4c\u5e02\u3067\u304a\u5ba2\u69d8\u306b\u201c\u5bc4\u308a\u6dfb\u3046\u201d\u907a\u54c1\u6574\u7406\u3084\u798f\u7949\u6574\u7406\u3001\u751f\u524d\u6574\u7406\u3001\u7279\u6b8a\u6e05\u6383\u306a\u3069\u306e\u30b5\u30fc\u30d3\u30b9\u306e\u3054\u63d0\u4f9b\u306a\u3089\u5f53\u793e\u306b\u304a\u4efb\u305b\u304f\u3060\u3055\u3044\u3002\u304a\u898b\u7a4d\u3082\u308a\u306f\u7121\u6599\u3067\u3059\u306e\u3067\u3001\u304a\u6c17\u8efd\u306b\u304a\u554f\u3044\u5408\u308f\u305b\u304f\u3060\u3055\u3044\u3002","url":"http:\/\/s10316900000001.nx1.hpms1.jp\/"}}]},{"@type":"WebPage","@id":"http:\/\/s10316900000001.nx1.hpms1.jp\/#webpage","url":"http:\/\/s10316900000001.nx1.hpms1.jp\/","name":"\u5408\u540c\u4f1a\u793e\u307f\u3089\u3044\u30a2\u30b7\u30b9\u30c8\uff5c\u672d\u5e4c\u5e02\u3067\u304a\u5ba2\u69d8\u306b\u201c\u5bc4\u308a\u6dfb\u3046\u201d\u907a\u54c1\u6574\u7406","description":"\u672d\u5e4c\u5e02\u8c4a\u5e73\u533a\u5e73\u5cb8\u306b\u3042\u308b\u300e\u5408\u540c\u4f1a\u793e\u307f\u3089\u3044\u30a2\u30b7\u30b9\u30c8\u300f\u3067\u3059\u3002\u672d\u5e4c\u5e02\u3067\u304a\u5ba2\u69d8\u306b\u201c\u5bc4\u308a\u6dfb\u3046\u201d\u907a\u54c1\u6574\u7406\u3084\u798f\u7949\u6574\u7406\u3001\u751f\u524d\u6574\u7406\u3001\u7279\u6b8a\u6e05\u6383\u306a\u3069\u306e\u30b5\u30fc\u30d3\u30b9\u306e\u3054\u63d0\u4f9b\u306a\u3089\u5f53\u793e\u306b\u304a\u4efb\u305b\u304f\u3060\u3055\u3044\u3002\u304a\u898b\u7a4d\u3082\u308a\u306f\u7121\u6599\u3067\u3059\u306e\u3067\u3001\u304a\u6c17\u8efd\u306b\u304a\u554f\u3044\u5408\u308f\u305b\u304f\u3060\u3055\u3044\u3002","inLanguage":"ja","isPartOf":{"@id":"http:\/\/s10316900000001.nx1.hpms1.jp\/#website"},"breadcrumb":{"@id":"http:\/\/s10316900000001.nx1.hpms1.jp\/#breadcrumblist"},"datePublished":"2021-02-03T08:29:29+09:00","dateModified":"2021-02-04T09:31:33+09:00"}]}
+		</script>
+  <!-- All in One SEO -->
+
+  <link rel="dns-prefetch" href="http://ajaxzip3.github.io/">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1/slick/slick.min.css">
+
+  <link rel="stylesheet" href={% static 'css/top/slick.css' %}>
+  <link rel="stylesheet" href={% static 'css/top/top_style.css' %}>
+
+  <script type="text/javascript" src={% static 'js/top/jquery.min.js' %} id="jquery-js"></script>
+  <script type="text/javascript" src={% static 'js/top/ajaxzip3.js' %} id="ajaxzip3-js-js"></script>
+
+  <script src={% static 'js/top/slick.min.js' %}></script>
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1/slick/slick.min.js"></script>
+  <script>
+    jQuery(function ($) {
+      $('.main_visual_slick').slick({
+        autoplay: true,
+        autoplaySpeed: 5000,
+        centerMode: false,
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              arrows: false,
+              centerMode: false,
+              variableWidth: false,
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              arrows: false,
+              centerMode: false,
+              variableWidth: false,
+            }
+          }
+        ]
+      });
+    })
+  </script>
+  <link rel="shortlink" href={% url 'museum:top' %}>
+  <script>
+    jQuery(function ($) {
+      $("#zip").attr('onKeyUp', 'AjaxZip3.zip2addr(this,\'\',\'address\',\'address\');');
+      $("#zip2").attr('onKeyUp', 'AjaxZip3.zip2addr(\'zip1\',\'zip2\',\'prefecture\',\'city\',\'street\');');
+    })
+  </script>
+  <link href={% static 'css/top/css.css' %} rel="stylesheet">
+
+  
+
+  <script type="application/ld+json">
+  {
+    "@context": "http://schema.org/",
+    "@type": "LocalBusiness",
+    "name": "",
+    "address": "",
+    "telephone": "",
+    "faxNumber": "",
+    "url": "https://pacific-springs-93264.herokuapp.com",
+    "email": "",
+    "image": "http://s10316900000001.nx1.hpms1.jp/wp-content/uploads/logo_ogp.jpg",
+    "logo": "http://s10316900000001.nx1.hpms1.jp/wp-content/uploads/logo_org.png"
+  }
+</script>
+  <style type="text/css" data-fbcssmodules="css:fb.css.basecss:fb.css.dialog css:fb.css.iframewidget">
+    .fb_hidden {
+      position: absolute;
+      top: -10000px;
+      z-index: 10001
+    }
+
+    .fb_reposition {
+      overflow: hidden;
+      position: relative
+    }
+
+    .fb_invisible {
+      display: none
+    }
+
+    .fb_reset {
+      background: none;
+      border: 0;
+      border-spacing: 0;
+      color: #000;
+      cursor: auto;
+      direction: ltr;
+      font-family: "lucida grande", tahoma, verdana, arial, "hiragino kaku gothic pro", meiryo, "ms pgothic", sans-serif;
+      font-size: 11px;
+      font-style: normal;
+      font-variant: normal;
+      font-weight: normal;
+      letter-spacing: normal;
+      line-height: 1;
+      margin: 0;
+      overflow: visible;
+      padding: 0;
+      text-align: left;
+      text-decoration: none;
+      text-indent: 0;
+      text-shadow: none;
+      text-transform: none;
+      visibility: visible;
+      white-space: normal;
+      word-spacing: normal
+    }
+
+    .fb_reset>div {
+      overflow: hidden
+    }
+
+    @keyframes fb_transform {
+      from {
+        opacity: 0;
+        transform: scale(.95)
+      }
+
+      to {
+        opacity: 1;
+        transform: scale(1)
+      }
+    }
+
+    .fb_animate {
+      animation: fb_transform .3s forwards
+    }
+
+    .fb_dialog {
+      background: rgba(82, 82, 82, .7);
+      position: absolute;
+      top: -10000px;
+      z-index: 10001
+    }
+
+    .fb_dialog_advanced {
+      border-radius: 8px;
+      padding: 10px
+    }
+
+    .fb_dialog_content {
+      background: #fff;
+      color: #373737
+    }
+
+    .fb_dialog_close_icon {
+      background: url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;
+      cursor: pointer;
+      display: block;
+      height: 15px;
+      position: absolute;
+      right: 18px;
+      top: 17px;
+      width: 15px
+    }
+    
+
+    .fb_dialog_mobile .fb_dialog_close_icon {
+      left: 5px;
+      right: auto;
+      top: 5px
+    }
+
+    .fb_dialog_padding {
+      background-color: transparent;
+      position: absolute;
+      width: 1px;
+      z-index: -1
+    }
+
+    .fb_dialog_close_icon:hover {
+      background: url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent
+    }
+
+    .fb_dialog_close_icon:active {
+      background: url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent
+    }
+
+    .fb_dialog_iframe {
+      line-height: 0
+    }
+
+    .fb_dialog_content .dialog_title {
+      background: #6d84b4;
+      border: 1px solid #365899;
+      color: #fff;
+      font-size: 14px;
+      font-weight: bold;
+      margin: 0
+    }
+
+    .fb_dialog_content .dialog_title>span {
+      background: url(https://static.xx.fbcdn.net/rsrc.php/v3/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;
+      float: left;
+      padding: 5px 0 7px 26px
+    }
+
+    body.fb_hidden {
+      height: 100%;
+      left: 0;
+      margin: 0;
+      overflow: visible;
+      position: absolute;
+      top: -10000px;
+      transform: none;
+      width: 100%
+    }
+
+    .fb_dialog.fb_dialog_mobile.loading {
+      background: url(https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;
+      min-height: 100%;
+      min-width: 100%;
+      overflow: hidden;
+      position: absolute;
+      top: 0;
+      z-index: 10001
+    }
+
+    .fb_dialog.fb_dialog_mobile.loading.centered {
+      background: none;
+      height: auto;
+      min-height: initial;
+      min-width: initial;
+      width: auto
+    }
+
+    .fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner {
+      width: 100%
+    }
+
+    .fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content {
+      background: none
+    }
+
+    .loading.centered #fb_dialog_loader_close {
+      clear: both;
+      color: #fff;
+      display: block;
+      font-size: 18px;
+      padding-top: 20px
+    }
+
+    #fb-root #fb_dialog_ipad_overlay {
+      background: rgba(0, 0, 0, .4);
+      bottom: 0;
+      left: 0;
+      min-height: 100%;
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 100%;
+      z-index: 10000
+    }
+
+    #fb-root #fb_dialog_ipad_overlay.hidden {
+      display: none
+    }
+
+    .fb_dialog.fb_dialog_mobile.loading iframe {
+      visibility: hidden
+    }
+
+    .fb_dialog_mobile .fb_dialog_iframe {
+      position: sticky;
+      top: 0
+    }
+
+    .fb_dialog_content .dialog_header {
+      background: linear-gradient(from(#738aba), to(#2c4987));
+      border-bottom: 1px solid;
+      border-color: #043b87;
+      box-shadow: white 0 1px 1px -1px inset;
+      color: #fff;
+      font: bold 14px Helvetica, sans-serif;
+      text-overflow: ellipsis;
+      text-shadow: rgba(0, 30, 84, .296875) 0 -1px 0;
+      vertical-align: middle;
+      white-space: nowrap
+    }
+
+    .fb_dialog_content .dialog_header table {
+      height: 43px;
+      width: 100%
+    }
+
+    .fb_dialog_content .dialog_header td.header_left {
+      font-size: 12px;
+      padding-left: 5px;
+      vertical-align: middle;
+      width: 60px
+    }
+
+    .fb_dialog_content .dialog_header td.header_right {
+      font-size: 12px;
+      padding-right: 5px;
+      vertical-align: middle;
+      width: 60px
+    }
+
+    .fb_dialog_content .touchable_button {
+      background: linear-gradient(from(#4267B2), to(#2a4887));
+      background-clip: padding-box;
+      border: 1px solid #29487d;
+      border-radius: 3px;
+      display: inline-block;
+      line-height: 18px;
+      margin-top: 3px;
+      max-width: 85px;
+      padding: 4px 12px;
+      position: relative
+    }
+
+    .fb_dialog_content .dialog_header .touchable_button input {
+      background: none;
+      border: none;
+      color: #fff;
+      font: bold 12px Helvetica, sans-serif;
+      margin: 2px -12px;
+      padding: 2px 6px 3px 6px;
+      text-shadow: rgba(0, 30, 84, .296875) 0 -1px 0
+    }
+
+    .fb_dialog_content .dialog_header .header_center {
+      color: #fff;
+      font-size: 16px;
+      font-weight: bold;
+      line-height: 18px;
+      text-align: center;
+      vertical-align: middle
+    }
+
+    .fb_dialog_content .dialog_content {
+      background: url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;
+      border: 1px solid #4a4a4a;
+      border-bottom: 0;
+      border-top: 0;
+      height: 150px
+    }
+
+    .fb_dialog_content .dialog_footer {
+      background: #f5f6f7;
+      border: 1px solid #4a4a4a;
+      border-top-color: #ccc;
+      height: 40px
+    }
+
+    #fb_dialog_loader_close {
+      float: left
+    }
+
+    .fb_dialog.fb_dialog_mobile .fb_dialog_close_icon {
+      visibility: hidden
+    }
+
+    #fb_dialog_loader_spinner {
+      animation: rotateSpinner 1.2s linear infinite;
+      background-color: transparent;
+      background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/t-wz8gw1xG1.png);
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+      height: 24px;
+      width: 24px
+    }
+
+    @keyframes rotateSpinner {
+      0% {
+        transform: rotate(0deg)
+      }
+
+      100% {
+        transform: rotate(360deg)
+      }
+    }
+
+    .fb_iframe_widget {
+      display: inline-block;
+      position: relative
+    }
+
+    .fb_iframe_widget span {
+      display: inline-block;
+      position: relative;
+      text-align: justify
+    }
+
+    .fb_iframe_widget iframe {
+      position: absolute
+    }
+
+    .fb_iframe_widget_fluid_desktop,
+    .fb_iframe_widget_fluid_desktop span,
+    .fb_iframe_widget_fluid_desktop iframe {
+      max-width: 100%
+    }
+
+    .fb_iframe_widget_fluid_desktop iframe {
+      min-width: 220px;
+      position: relative
+    }
+
+    .fb_iframe_widget_lift {
+      z-index: 1
+    }
+
+    .fb_iframe_widget_fluid {
+      display: inline
+    }
+
+    .fb_iframe_widget_fluid span {
+      width: 100%
+    }
+  </style>
+</head>
+
+<body class="scrollTop home touch-disabled up" style="padding-top: 0px;">
+
+  <div id="fb-root" class=" fb_reset">
+    <div style="position: absolute; top: -10000px; width: 0px; height: 0px;">
+      <div></div>
+    </div>
+  </div>
+  <script>(function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.12';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+
+  <header class="low">
+    <div class="primary_header">
+      <div class="container">
+        <div class="row">
+          <h1 class="title">
+            <a href={% url 'museum:top' %}>
+              <nobr>Carry Quality</nobr>
+              {% load static %}
+            </a>
+          </h1>
+          <div class="hdr_info_wrap">
+            <div class="hdr_info">
+              <span class="pc-only">
+                <span class="tel">TEL 052-838-5991</span><br>
+                
+              </span>
+              <span class="hdr_info_sp sp-only"><a href="tel:052-838-5991"><img
+                    src="{% static 'tell.jpg' %}"
+                    alt="TEL"></a></span>
+            </div>
+          </div>
+          <nav class="global_nav">
+            <ul>
+              <li<a href="/news"></a></li>
+
+                <li class="gnav_search">
+                 
+
+                </li>
+            </ul>
+            <div class="menu_icon">
+              
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+
+    <div class="sec_wrap">
+      <section class="th03_bnr wow sec01 animated" style="visibility: visible;">
+
+        <div class="container">
+          <div class="row">
+            
+              <img src="{% static 'one.jpg' %}" width="150%">
+         
+
+          </div>
+        </div>
+      </section>
+      
+
+    </div>
+    <div class="sec_wrap">
+      <h2>メニュー</h2>
+      {% for post in posts %}
+      <section class="th03_bnr wow sec01 animated" style="visibility: visible;">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 th03_bnr_img">
+              <img src="https://drive.google.com/uc?export=view&id={{ post.price }}&usp=sharing" alt="Generic placeholder image" height="320">
+            </div>
+            <div class="col-sm-6 th03_bnr_text">
+              
+              <h2>{{ post.title }}</h2>
+              <p>{{ post.text| truncatechars:50|linebreaksbr|urlize }}</p>
+              <p class="th03_bnr_button more "><a href="/posts/{{ post.id }}"
+                  class="add_arrow">詳しくはこちら</a></p>
+            </div>
+          </div>
+        </div>
+      </section>
+      {% endfor %}
+
+    </div>
+    <section class="sec03">
+      <div class="container gutters news typeB">
+        <div>
+          <div class="heading">
+            <h2>昭和区の皆様身体の不調・違和感を感じたらCarry Qualityに一番最初にお越しください</h2>
+          </div>
+          <div class="content row">
+            <img src="{% static 'two.jpg' %}" width="100%">
+            <dl>
+
+              <dd>
+                <p><a><small>Carry Quality八事日赤駅前南院では、慢性の腰痛や肩こり、頭痛、スポーツパフォーマンス、肘が抜けた！とお子さんを抱えて慌てて飛び込んでこられる方、ぎっくり腰で動けない方は往診も行うなど、お一人ずつの患者様に寄り添った施術を行います。
+                  <br>
+                  また、しっかりした検査やカウンセリングによって患者様の痛みや不調の原因をいち早く究明することでお一人おひとりに合った施術をご提案。
+                  どこに行っても治らなかった足の甲の辺りの原因不明の痛みを足関節の調整で取り除くなど、数々の症例を診てきたので、他では出来ない治療をしっかりと行うことで、地域の皆様のお役に立ちたいと思っています。
+                  <br>
+                  ”こんな症状でも見てくれるかな？”と心配する前に一度ご来院ください。
+                  病院に行った方が良いと判断した場合は、地域の病院とも連携していますので、病院をご紹介させていただきます。 交通事故も同様に弁護士や行政書士の方にご相談させていただきます。</small></a>
+                </p>
+              </dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+    
+
+
+
+
+    <div class="sec_wrap">
+      <h2>Carry Qualityについて</h2>
+      <section class="th03_bnr wow sec01 animated" style="visibility: visible;">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 th03_bnr_text">
+              
+              <p><small>名古屋市昭和区のCarry Quality　八事日赤駅南院　院長の下平です。<br>
+                私は昔から体を動かすのが大好きでいろんなスポーツをやってきました。<br>
+                そのおかげと言いますか、いろんなケガもして、ひどい時は歩けないような症状にもなり、同じような痛みで困っている人の痛みを早く治してあげたい！ と言う想いでこの仕事につかせていただきました。<br>
+                だからこそ、人の痛みが解る治療家としていち早く患者様の体を健康な状態に戻すことをポリシーとして治療をしています。<br>
+                痛みの原因としては、人が感じる体の痛みのほとんどが骨格や筋肉の変性によって起こります。<br>
+                筋肉自体が原因の場合や、骨格のゆがみから筋力の低下や筋の柔軟性の低下が起こったりします。<br>
+                その為、関節の正常な動きが失われ、結果、痛みや変形、だるさなどといった症状を引き起こします。<br>
+                症状のでている部分ばかり治療していてもなかなか改善しない事もよくあります。<br>
+                昭和区のCarry Qualityでは症状の緩和や癒しだけを目的にするのではなく、「症状のでない健康な体づくり」のため、個々の患者様にあわせた治療方法・根本的な解決のためプログラムを作成し治癒させていただきます。<br>
+                昭和区のCarry Quality スポーツ障害・しびれ・職業病・交通事故外傷など重度の疾患から、日常のちょっとした肩こりや腰痛の症状まで幅広く対応しています。 何かお困りの方はお気軽にご相談ください</small></p>
+             
+            </div>
+            <div class="col-sm-6 th03_bnr_img">
+              <img src="{% static 'three.jpg' %}" width="477">
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+    <div class="sec_wrap">
+      <h2>ポイント</h2>
+      {% for news in newss %}
+      <section class="th03_bnr wow sec01 animated" style="visibility: visible;">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 th03_bnr_img">
+              <img src="https://drive.google.com/uc?export=view&id={{ news.picturefornews.first.avator }}&usp=sharing" alt="Generic placeholder image" height="320">
+            </div>
+            <div class="col-sm-6 th03_bnr_text">
+              
+              <h2>{{ news.title }}</h2>
+              <p>{{ news.text| truncatechars:50|linebreaksbr|urlize }}</p>
+          </div>
+        </div>
+      </section>
+      {% endfor %}
+
+    </div>
+    
+    
+
+    <div class="sec_wrap">
+      <h2>診察</h2>
+      {% for post in postnew %}
+      <section class="th03_bnr wow sec01 animated" style="visibility: visible;">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 th03_bnr_img">
+              <img src="https://drive.google.com/uc?export=view&id={{ post.pictureforpost.first.avator}}&usp=sharing" alt="Generic placeholder image" height="320">
+            </div>
+            <div class="col-sm-6 th03_bnr_text">
+              
+              <h2>{{ post.title }}</h2>
+              <p>{{ post.text| linebreaksbr|urlize }}</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      {% endfor %}
+
+    </div> 
+    <section class="sec04">
+      <div class="container gutters">
+        <div class="row shopinfo tile">
+          <div class="col span_3" style="height: 521px;">
+
+            <dl>
+              <dt>会社名</dt>
+              <dd>Carry Quality</dd>
+              <dt>住所</dt>
+              <dd>〒466-0815<br>
+                名古屋市昭和区山手通4-12-4</dd>
+              <dt>TEL</dt>
+              <dd><span class="pc-only">052-838-5991</span> <span class="sp-only"> <a
+                    href="tel:090-8821－032">052-838-5991</a> </span></dd>
+
+            </dl>
+
+          </div>
+          <div class="col span_9" style="height: 521px;">
+            <div class="map_container"><iframe style="border: 0;"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4849.527718210692!2d135.51460658642395!3d34.70230965231953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e6c58a383747%3A0x4cf748e780371e92!2z44CSNTMwLTAwMzUg5aSn6Ziq5bqc5aSn6Ziq5biC5YyX5Yy65ZCM5b-D77yS5LiB55uu77yR77yT4oiS77yY!5e0!3m2!1sja!2sjp!4v1623748487049!5m2!1sja!2sjp"
+                frameborder="0" allowfullscreen="allowfullscreen" class="googlemap"></iframe><noscript><iframe
+                  style="border: 0;"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4849.527718210692!2d135.51460658642395!3d34.70230965231953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e6c58a383747%3A0x4cf748e780371e92!2z44CSNTMwLTAwMzUg5aSn6Ziq5bqc5aSn6Ziq5biC5YyX5Yy65ZCM5b-D77yS5LiB55uu77yR77yT4oiS77yY!5e0!3m2!1sja!2sjp!4v1623748487049!5m2!1sja!2sjp"
+                  frameborder="0" allowfullscreen="allowfullscreen" class="googlemap"></iframe></noscript></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact_info">
+      <div class="parallax_contact_info_inner">
+        <h2>お問い合わせ</h2>
+        <p>Carry Qualityへのお問い合わせは<br>お気軽にご連絡ください。</p>
+        <p class="contact_info_address"><span>【TEL】<span class="pc-only">052-838-5991</span><span class="sp-only"><a
+                href="tel:052-838-5991">052-838-5991</a></span></span></p>
+        <p>【営業時間】11:000~23:00<br>【定休日】不定休</p>
+
+      </div>
+    </section>
+  </main>
+  <footer class="low">
+    <div class="footer_nav_wrap">
+      <div class="container">
+        <div class="row">
+          <nav class="col span_12">
+            <ul>
+              <li></li>
+
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="footer_copyright_wrap">
+      <div class="container">
+        <div class="row">
+          <div class="col span_12">
+            <p>Copyright © Carry Quality All Rights Reserved.<br>
+              【掲載の記事・写真・イラストなどの無断複写・転載を禁じます】</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p class="pagetop"><a href="{% url 'museum:top' %}#top">
+      </a></p>
+  </footer>
+
+  <div id="aioseo-admin"></div>
+  <script type="text/javascript" id="contact-form-7-js-extra">
+    /* <![CDATA[ */
+    var wpcf7 = { "apiSettings": { "root": "http:\/\/s10316900000001.nx1.hpms1.jp\/wp-json\/contact-form-7\/v1", "namespace": "contact-form-7\/v1" } };
+/* ]]> */
+  </script>
+
+
+  
+</body>
+
+</html>
+
+
+{% endblock %}
